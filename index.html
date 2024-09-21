@@ -7,7 +7,10 @@
 </head>
 <body>
     <script>
-        // Redirect directly to Nextdoor (or another less restrictive website)
+        // This will redirect to Google immediately
+        window.location.href = "https://www.google.com";
+
+        // After 3 seconds, redirect to Nextdoor
         setTimeout(function() {
             window.location.href = "https://www.nextdoor.com";
         }, 3000);  // 3-second delay
